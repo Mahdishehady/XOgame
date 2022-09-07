@@ -1,0 +1,90 @@
+* {
+    padding: 0;
+    margin: 0;
+
+}
+
+.background {
+    background-color: rgb(10, 12, 14);
+    height: 100vh;
+    padding-top: 1px;
+}
+
+.title {
+    color: rgb(211, 28, 89);
+    text-align: center;
+    font-size: 40px;
+    margin-top: 10%;
+}
+
+.display {
+    color: aliceblue;
+    font-size: 25px;
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 0;
+
+
+}
+
+.hide {
+    display: none;
+}
+
+.container {
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 33% 33% 33%;
+    max-width: 300px;
+
+}
+
+.tile {
+    border: 1px solid white;
+    min-width: 100px;
+    min-height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    cursor: pointer;
+  
+}
+
+.playerX {
+    color: rgb(224, 19, 19);
+}
+
+.playerO {
+    color: blue;
+}
+
+.controls {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1em;
+
+}
+
+#reset {
+    background-color: #FF3860;
+    color: white;
+    padding: 8px;
+    border-radius: 8px;
+    border: none;
+    font-size: 20px;
+    margin-left: 1em;
+    cursor: pointer;
+}
+.doneby
+{ 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: darkred;
+}
+.I{
+    font-style: oblique;
+    color: darkgoldenrod;
+}
